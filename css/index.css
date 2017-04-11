@@ -1,0 +1,207 @@
+
+.top {
+	width: 100%;
+	height: 100px;
+	background: #EFEFEF;
+}
+.top-center {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	border-left: 1px solid #64B82F;
+	border-right: 1px solid #64B82F;
+}
+.top-center > p {
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.top-center > p img {
+	margin: 20px;
+}
+.top-center > ul {
+	width: 150px;
+	height: 20px;
+	float: left;
+	margin: 30px 20px;
+}
+.top-center > ul li {
+	float: left;
+	margin-right: 6px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 5px;
+	padding: 3px;
+	color: #838383;
+}
+ .top-center .active {
+	background: url(../img/cityCornerRight.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	padding: 3px;
+}
+ .top-center span {
+ 	display: block;
+ 	float: right;
+ 	width: 200px;
+ 	margin: 20px;
+ }
+/*头部结束*/
+.nav{
+	width: 100%;
+	height: 60px;
+	background: url('../img/navBg.jpg');
+}
+.nav-center {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.navul li {
+	width: 160px;
+	line-height: 60px;
+	text-align: center;
+	color: white;
+	float: left;
+	/*background: url('../img/allIco24.png') no-repeat -405px -44px;*/
+}
+.navul a {
+	display: block;
+	width:100%;
+	height: 100%;
+	color: white;
+}
+.nav-active{
+	background: url('../img/allIco24.png') no-repeat -405px -112px;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.lunbo {
+	width: 100%;
+	height: 500px;
+	
+}
+.lunbo-left {
+	width: 160px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.lunbo-left p {
+	width: 100%;
+	height: 125px;
+	background: url('../img/allIco24.png') no-repeat 0px -45px;
+	text-align: center;
+	line-height: 125px;
+	color: white;
+	
+}
+.lunbo-left p span {
+	display: block;
+	width: 100%;
+	height: 125px;
+}
+.lunbo-left-active {
+	background: url('../img/allIco24.png') no-repeat -165px -45px;
+}
+.lunbo-left .sj {
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: url(../img/allIco24.png) no-repeat -218px -185px;
+	left: 40%;
+	top: -2px;
+}
+.lunbo-left-two {
+	width: 390px;
+	height: 470px;
+	background: white;
+	position: absolute;
+	left: 170px;
+	top: 30px;
+	display: none;
+}
+.lunbo-left-two img {
+	margin-bottom: 10px;
+}
+
+.lunbo-right {
+	width: 840px;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+.main {
+		width: 3360px;/*4张图的宽度*/
+		height: 100%;
+		position: relative;
+	}
+.main .li {
+		width:840px;
+		height: 500px;
+		float: left;
+		z-index: 8;
+}
+.main .li img {
+	width: 100%;
+	height: 100%;
+}
+.dian{
+		position: absolute;
+		z-index: 1111;
+		left: 70%;
+		bottom: 10px;
+}
+.dian li {
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 0 2px;
+	overflow: hidden;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 3px solid white;
+	background: rgba(255,255,255,.7);
+}
+.dianactive {
+	background: greenyellow !important;
+}		
+.neirong {
+	width: 100%;
+	height: 890px;
+}
+.nr-left {
+	width: 715px;
+	height: 890px;
+	float: left;
+}	
+.nr-left-top {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+
+.nr-left-top .bg {
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	background: url('../img/allIco24.png') no-repeat -67px 4px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.nr-left-top .fo {
+	font-size: 16px;
+}
+
+
+.nr-right {
+	width: 250px;
+	height: 100%;
+	float: right;
+}			
+
