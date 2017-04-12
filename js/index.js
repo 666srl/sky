@@ -51,7 +51,11 @@ var lunbo=$('.lunbo-right'),
 	})
 
 	
-	
+//	$('.show').hover(function(){
+//		$('.lunbo-left-two').css('transform','translateX(0)').css('opacity','1').css('z-index','3')
+//	},function(){
+//		$('.lunbo-left-two').css('transform','translateX(-368px)').css('opacity','0').css('z-index','3')
+//	})
 	
 	
 	
