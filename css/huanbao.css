@@ -66,7 +66,7 @@
 	float: left;
 	/*background: url('../img/allIco24.png') no-repeat -405px -44px;*/
 }
-.navul li:nth-child(2){position: relative;}
+.navul li:nth-child(3){position: relative;}
 .navul a {
 	display: block;
 	width:100%;
@@ -152,39 +152,18 @@
 	color: #3FAF0F;
 	margin-top: 10px;
 }
-.d-r-o {
-	width: 100%;
-	height: 225px;
-	border: 1px solid #D6D6D4;
-	padding: 10px;
-	margin-top: 25px;
-}
-.d-r-o > img {
-	display: inline-block;
-	width: 335px;
-	height: 221px;
-	float: left;
-}
-.zi {
-	width: 450px;
-	height: 208px;
-	float: left;
-	padding: 20px 10px 0 20px;
-}
-.zi .one a{
-	font-size: 16px;
-	line-height: 14px;
-	color: #627186;
-	font-weight: bold;
-}
-.zi .two{
+.huan-zi {
+	width: 700px;
+	height: 164px;
 	font-size: 14px;
-	text-indent: 24px;
-	color: #627186;
 	line-height: 26px;
-	margin-top: 20px;
+	padding: 40px 60px;
+	text-indent: 24px;
+	color: #617087;
+	background: #FFFFFF;
+	margin: 20px 0;
+	border: 1px solid #D5D5D3;
 }
-.nb {border: none;}
 footer .footer-t{
 	clear: both;
 	width: 100%;
