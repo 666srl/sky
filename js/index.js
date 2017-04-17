@@ -38,17 +38,17 @@ var lunbo=$('.lunbo-right'),
 							"left":-oneWidth*num
 						})//也可以设置时间，必须小于3000
 					})
-	lunbo.hover(function(){
-		clearInterval(timer)
-	},function(){
-		timer=setInterval(function(){
-						num++;
-						if(num > lunboNav.length - 1){
-							num=0;	
-						}
-						lunboNav.eq(num).trigger("click");
-					},2000)
-	})
+//	lunbo.hover(function(){
+//		clearInterval(timer)
+//	},function(){
+//		timer=setInterval(function(){
+//						num++;
+//						if(num > lunboNav.length - 1){
+//							num=0;	
+//						}
+//						lunboNav.eq(num).trigger("click");
+//					},2000)
+//	})
 
 	
 //	$('.show').hover(function(){
