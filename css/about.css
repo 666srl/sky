@@ -1,0 +1,244 @@
+body {font-family: "微软雅黑";}
+.top {
+	width: 100%;
+	height: 100px;
+	background: #EFEFEF;
+}
+.top-center {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	border-left: 1px solid #64B82F;
+	border-right: 1px solid #64B82F;
+}
+.top-center > p {
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.top-center > p img {
+	margin: 20px;
+}
+.top-center > ul {
+	width: 150px;
+	height: 20px;
+	float: left;
+	margin: 30px 20px;
+}
+.top-center > ul li {
+	float: left;
+	margin-right: 6px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 5px;
+	padding: 3px;
+	color: #838383;
+}
+ .top-center .active {
+	background: url(../img/cityCornerRight.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	padding: 3px;
+}
+ .top-center span {
+ 	display: block;
+ 	float: right;
+ 	width: 200px;
+ 	margin: 20px;
+ }
+/*头部结束*/
+.nav{
+	width: 100%;
+	height: 60px;
+	background: url('../img/navBg.jpg');
+}
+.nav-center {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.navul li {
+	width: 160px;
+	line-height: 60px;
+	text-align: center;
+	color: white;
+	float: left;
+	/*background: url('../img/allIco24.png') no-repeat -405px -44px;*/
+}
+.navul li:nth-child(3){position: relative;}
+.navul a {
+	display: block;
+	width:100%;
+	height: 100%;
+	color: white;
+}
+.nav-active{
+	background: url('../img/allIco24.png') no-repeat -405px -112px;
+}
+.jt {
+	display: block;
+	width: 20px;
+	height: 18px;
+	position: absolute;
+	background: url(../img/allIco24.png) no-repeat -218px -185px;
+	left: 550px;
+	top: 58px;
+}
+.d-content {
+	width: 100%;
+	height: 2300px;
+}
+.d-content-con {
+	width: 1000px;
+	margin: 0 auto;
+}
+.d-left {
+	width: 160px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.d-left p {
+	width: 100%;
+	height: 125px;
+	background: url('../img/allIco24.png') no-repeat 0px -45px;
+	text-align: center;
+	line-height: 125px;
+	color: white;
+	
+}
+.d-left p span {
+	display: block;
+	width: 100%;
+	height: 125px;
+}
+.d-left-active {
+	background: url('../img/allIco24.png') no-repeat -165px -45px;
+}
+.d-left-two {
+	width: 368px;
+	height: 440px;
+	background: white;
+	position: absolute;
+	left: 157px;
+	top: 30px;
+	transform: translateX(-368px);
+	opacity: 0;
+	transition: all 1s;
+	z-index: -1;
+}
+.d-left-two img {
+	margin: 10px;
+}
+.huan-right {
+	width: 820px;
+	margin: 20px 0 0 20px;
+	float: left;
+	position: absolute;
+	left: 24%;
+}
+.huan-right p:nth-child(1) {
+	color: #617284;
+	font-size: 13px;
+}
+.huan-right .r_t {
+	background: #F0F0F0;
+	border-bottom: 5px solid #3FAF0F;
+	width: 822px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 24px;
+	color: #3FAF0F;
+	margin-top: 10px;
+	font-size: 24px;
+}
+.about-top {
+	margin: 20px 0px 0px;
+    padding: 50px 75px;
+    background: #fff;
+    border: 1px solid #D5D5D3;
+    font-size: 14px;
+    line-height: 26px;
+}
+.about-top h1 {
+	padding: 0px 0px 10px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #617087;
+}
+.about-top h2 {color: #617087}
+.a-pic {
+	overflow: hidden;
+    text-align: center;
+    padding: 10px 0px 30px;
+}
+.a-info {
+	width: 668px;
+	height: 207px;
+}
+.a-info h2 {
+	padding: 0px 0px 15px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #617087;
+}
+.a-info p {
+	text-indent: 2em;
+    padding: 0px 0px 10px;
+    color: #617087;
+}
+.a-ul {padding-left: 30px;color: #617087;}
+.a-ul li span {
+	display: block;
+    float: left;
+    padding-right: 18px;
+}
+.a-ul li p {
+	overflow: hidden;
+    zoom: 1;
+    padding: 0px 0px 0px 199px;
+    text-indent: 0px;
+    background: url(../img/dashedBg.jpg) no-repeat left 13px;
+}
+.a-ul li div a {
+	text-decoration: none;
+    outline: none;
+    color: #627186;
+}
+.tsc {
+	padding: 10px 24px 19px 35px;
+}
+
+footer .footer-t{
+	clear: both;
+	width: 100%;
+	height: 270px;
+	background: url(../img/footerBg.jpg);
+	position: absolute;
+}
+footer .footer-t p {
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer .footer-t img {
+	width: 100%;
+	height: 100%;
+}
+footer .footer-con p {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	color: #617087;
+}
+footer .footer-con p:nth-child(1){
+	font-size: 18px;
+	margin-top: 40px;
+}
+footer .footer-con p:nth-child(2){
+	font-size: 14px;
+	margin-top: 40px;
+	line-height: 25px;
+	margin: 0 auto;
+}
